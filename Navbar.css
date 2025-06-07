@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: #075E54;
+  color: white;
+  height: 30px;
+  width: 98%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo i {
+  font-size: 1.6rem;
+  margin-right: 8px;
+  color: #25D366; 
+}
+
+
+.nav-icons i {
+  margin-left: 16px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  margin-left: auto;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  cursor: pointer;
+}

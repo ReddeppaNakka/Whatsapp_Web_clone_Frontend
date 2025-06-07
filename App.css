@@ -1,0 +1,73 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .App-container {
+  display: flex;
+  height: calc(100vh - 30px); 
+  margin-top: 3px; 
+} */
+
+
+:root {
+  --bg-color: #8ef1fa;
+  --text-color: #000000;
+  --chat-bg: #d4eaee;
+  --sidebar-bg: #92def8;
+  --input-bg: #87eaf3;
+  --message-received-bg: #e2f7cb;
+  --message-sent-bg: #d1d1d1;
+}
+
+.dark {
+  --bg-color: #121212;
+  --text-color: #c5c0d9;
+  --chat-bg: #1e1e1e;
+  --sidebar-bg: #2c2c2c;
+  --input-bg: #333333;
+  --message-received-bg: #3a3a3a;
+  --message-sent-bg: #4a4a4a;
+}
+
+
+.App-container {
+  display: flex;
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
