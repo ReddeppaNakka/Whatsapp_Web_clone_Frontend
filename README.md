@@ -28,7 +28,7 @@ A responsive frontend clone of WhatsApp Web built using **ReactJS**. This projec
 
 ###  Prerequisites
 
-- Node.js & npm (or yarn)
+- Node.js & npm 
 - A code editor like VS Code
 
 ###  Installation
